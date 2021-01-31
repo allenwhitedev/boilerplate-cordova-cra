@@ -1,0 +1,28 @@
+# gitignore template for the Cordova framework
+# website: https://cordova.apache.org/
+#
+# Recommended template: Node.gitignore
+
+# App platform binaries and built files
+/platforms
+
+# Optional to ignore plugin Git clones
+#/plugins
+
+# gitignore template for create-react-app from https://github.com/facebook/create-react-app/blob/master/.gitignore
+.idea/
+.vscode/
+node_modules/
+build
+.DS_Store
+*.tgz
+my-app*
+template/src/__tests__/__snapshots__/
+lerna-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.changelog
+.npm/
+yarn.lock
+
